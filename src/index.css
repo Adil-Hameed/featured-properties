@@ -24,7 +24,12 @@ code {
   border: none;
   color: var(--form-gray);
 }
-
+.bg-header-1{
+  background-image:linear-gradient(rgba(38, 42, 61, 0.70),rgba(38, 42, 61, 0.70)), url(../public/asset/bg.png);
+  /* background-image: url(../public/asset/bg.png); */
+  background-position: center;
+  /* background: rgba(38, 42, 61, 0.70); */
+}
 .property-card {
   border-radius: 12px;
   background: var(--1-f-262-e, #1F262E);
