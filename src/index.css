@@ -101,6 +101,7 @@ code {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 16px 16px; /* Optional: Set the size of the custom arrow icon */
+  background-color: transparent;
 
 }
 /* ---- */
