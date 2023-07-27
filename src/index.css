@@ -37,6 +37,23 @@ code {
   /* Drop Shadow */
   box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
 }
+.property-card:hover > div > img{
+  transform: scale(1.1);
+  /* display: none !important; */
+  background-color: gray;
+  transition: all 0.7s;
+}
+.property-card:hover{
+  background: var(--1-f-262-e, #161a1f);
+  /* transition: all 0.s; */
+  /* box-shadow: 10px 4px 18px 0px rgba(0, 0, 0, 0.08);*/
+  /* box-shadow: 15px 6px 24px 0px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
+
+  /* transform: scale(1.1); */
+
+
+}
 
 .pagination {
   width: 44px;
@@ -68,11 +85,28 @@ code {
 .roboto {
   font-family: 'Roboto' !important;
 }
+.montserrat {
+  font-family:'Montserrat', sans-serif !important;
+  font-weight: bolder;
+}
 
+.option-clr{
+  color: #7F7F7F;
+  outline: none;
+  -webkit-appearance: none; /* Safari and newer versions of Chrome */
+  -moz-appearance: none; /* Older versions of Firefox */
+  appearance: none; /* Latest version of Firefox, Edge, and newer versions of Chrome */
+  padding-right: 1em; /* Add a small right padding to make room for custom arrow (if needed) */
+  /* background-image: url("path/to/your-custom-arrow-icon.png"); Optional: Use a custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 16px 16px; /* Optional: Set the size of the custom arrow icon */
+
+}
 /* ---- */
 h1 {
-  font-size: 64px;
-  font-weight: 800;
+  font-size: 68px;
+  font-weight: 900;
 }
 
 h2 {

@@ -46,9 +46,9 @@ export default function Cards() {
                     return (
                         <div className='col-lg-4 col-md-6 col-12 mx-auto text-center  text-white mb-4' key={index}>
                             <div className='property-card p-10 pointer'>
-                                <div className='position-relative text-center d-flex justify-content-center align-items-end '>
+                                <div className='position-relative text-center d-flex justify-content-center align-items-end overflow-hidden'>
 
-                                    <img alt='' src={item.imgPath} className='img-fluid w-100' />
+                                    <img alt='' src={item.imgPath} className='img-fluid w-100 img-pr' />
                                     <div className='text-center position-absolute fs-18 fw-semibold d-inline-block property-card mb-3 px-3 py-2 rounded-pill'>
                                         {item.button}
                                     </div>
